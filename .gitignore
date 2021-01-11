@@ -18,15 +18,15 @@
 /vendor/
 
 # Ignore configuration files that may contain sensitive information.
-sites/*/settings*.php
-sites/*/services*.yml
+/web/sites/*/settings*.php
+/web/sites/*/services*.yml
 
 # Ignore paths that contain user-generated content.
-sites/*/files
-sites/*/private
+/web/sites/*/files
+/web/sites/*/private
 
 # Ignore SimpleTest multi-site environment.
-sites/simpletest
+/web/sites/simpletest
 
 # If you prefer to store your .gitignore file in the sites/ folder, comment
 # or delete the previous settings and uncomment the following ones, instead.
@@ -42,28 +42,30 @@ sites/simpletest
 # simpletest
 
 # Ignore drupal core (if not versioning drupal sources)
-/core
+/web/core
 /vendor
-/modules/README.txt
-/profiles/README.txt
-/themes/README.txt
-/sites/README.txt
-/sites/example.sites.php
-/sites/example.settings.local.php
-/sites/development.services.yml
-/.csslintrc
+/web/modules/README.txt
+/web/profiles/README.txt
+/web/themes/README.txt
+/web/sites/README.txt
+/web/sites/example.sites.php
+/web/sites/example.settings.local.php
+/web/sites/development.services.yml
+/web/.csslintrc
+/web/.editorconfig
+/web/.eslintignore
+/web/.eslintrc.json
+/web/.gitattributes
+/web/.ht.router.php
+/web/.htaccess
+/web/autoload.php
+/web/example.gitignore
+/web/index.php
+/web/INSTALL.txt
+/web/LICENSE.txt
+/web/README.txt
+/web/robots.txt
+/web/update.php
+/web/web.config
 /.editorconfig
-/.eslintignore
-/.eslintrc.json
 /.gitattributes
-/.ht.router.php
-/.htaccess
-/autoload.php
-/example.gitignore
-/index.php
-/INSTALL.txt
-/LICENSE.txt
-/README.txt
-/robots.txt
-/update.php
-/web.config
