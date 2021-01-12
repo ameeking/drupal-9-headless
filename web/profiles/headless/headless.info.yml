@@ -1,0 +1,24 @@
+name: Headless
+type: profile
+description: 'Drupal 9 Headless'
+core_version_requirement: '^9'
+
+install:
+  - node
+  - block
+  - dblog
+  - page_cache
+  - dynamic_page_cache
+  - jsonapi
+  - serialization
+  - image
+  - field_ui
+  - toolbar
+  - build_hooks
+
+dependencies:
+  - node
+  - block
+
+themes:
+  - bartik
