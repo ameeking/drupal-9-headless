@@ -1,0 +1,13 @@
+local:
+  root: web
+  uri: example.lndo.site
+
+master:
+  host: ssh.au.platform.sh
+  user: example-user
+  root: /app/web
+  uri: 'https://example.au.platformsh.site/'
+  paths:
+    drush-script: /app/vendor/bin/drush
+  options:
+    platformsh-cli-auto-remove: true

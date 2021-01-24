@@ -20,6 +20,7 @@
 # Ignore configuration files that may contain sensitive information.
 /web/sites/*/settings.local.php
 /web/sites/*/services*.yml
+/drush/sites/self.site.yml
 
 # Ignore paths that contain user-generated content.
 /web/sites/*/files
